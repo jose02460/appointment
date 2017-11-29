@@ -8,6 +8,55 @@
     <title></title>
   </head>
   <body>
+    <div class="container">
+      <h1>BOOK AN APPOINTMENT</h1>
+      <form id="nameAndDescription">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="form-group">
+              <label for="firstName">First name:</label>
+              <input id="firstName" class="form-control" type="text">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="form-group">
+              <label for="lastName">Last name:</label>
+              <input id="lastName" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="description">Description of what you would like to discuss during the appointment.</label>
+              <input id="discription" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+      </form>
 
+       <form id="appointmentDates">
+         <div class="row">
+           <div class="col-md-3">
+               <div class="form-group">
+                 <label for="startDate">Start Date:</label>
+                 <input id="startDate" class="form-control" type="text">
+              </div>
+           </div>
+           <div class="col-md-3">
+              <div class="form-group">
+                <label for="endDate">Start Date:</label>
+                <input id="endDate" class="form-control" type="text">
+             </div>
+           </div>
+         </div>
+      </form>
+
+      <div id="confirmation">
+        <p>Dear <span id="firstNameOutput"></span> <span id="lastNameOutput"></span> </p>
+        <p> Your appointent is scheduled to start, <span         id="startDateOutput"></span> and end <span id="endDateOutput"></span>.</p>
+
+      </div>
+    </div>
   </body>
 </html>
