@@ -15,7 +15,7 @@ $(document).ready(function() {
     $("#endDateOutput").text(endDateOutput);
 
     $("#confirmation").show();
-    $("form#scheduleAnAppointment").hide();
+    // $("form#scheduleAnAppointment").hide();
   });
 
 
